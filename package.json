@@ -1,0 +1,22 @@
+{
+  "name": "Aya",
+  "version": "0.0.0",
+  "description": "Aya's app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayaide/aya.git"
+  },
+  "author": "Aya Ide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayaide/aya/issues"
+  },
+  "homepage": "https://github.com/ayaide/aya",
+  "dependencies": {
+    "react-native": "^0.3.4"
+  }
+}
