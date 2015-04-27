@@ -1,18 +1,26 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
+ * @flow
  */
 'use strict';
 
 var React = require('react-native');
 var {
   AppRegistry,
+  Image,
   StyleSheet,
   Text,
   View,
 } = React;
 
-var Aya = React.createClass({
+// 5 dwarf 144x48
+// 12 dancing 60x70
+// 5 dwarf
+// 12 spinning 60x70
+// 5 dwarf
+// 14 walking 53x74
+// 5 dwarf
+
+var HamsterDanceApp = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
@@ -50,4 +58,4 @@ var styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Aya', () => Aya);
+AppRegistry.registerComponent('HamsterDanceApp', () => HamsterDanceApp);
